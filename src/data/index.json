@@ -1,0 +1,92 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "src": "/logo/React-Native.jpg",
+      "title": "React-Native",
+      "description": "React Native is a framework for building mobile applications using JavaScript and React.js to create native mobile apps for iOS and Android platforms."
+    },
+    {
+      "id": 2,
+      "src": "/logo/NodeJs.jpg",
+      "title": "Node Js",
+      "description": "Node.js is a JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser, commonly used for building scalable and efficient server-side applications."
+    },
+    {
+      "id": 3,
+      "src": "/logo/JavaScript.jpg",
+      "title": "JavaScript",
+      "description": "JavaScript is a versatile programming language primarily used for building interactive web pages, but also applied in server-side development, mobile app development, and more."
+    },
+    {
+      "id": 4,
+      "src": "/logo/Html-Css.jpg",
+      "title": "HTML/CSS",
+      "description": "HTML is a markup language used to structure content on web pages, while CSS is a styling language used to control the presentation and appearance of HTML elements. Together, they define the structure and style of web pages."
+    },
+    {
+      "id": 5,
+      "src": "/logo/Git.jpg",
+      "title": "Git/GitHub",
+      "description": "Git is a distributed version control system used for tracking changes in code, while GitHub is a platform for hosting Git repositories and collaborating on software development projects."
+    },
+    {
+      "id": 6,
+      "src": "/logo/Java.jpg",
+      "title": "Core Java",
+      "description": "Core Java refers to the fundamental concepts and libraries of the Java programming language, encompassing basic syntax, object-oriented principles."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "src": "/ScreenShots/Anime X App.jpg",
+      "title": "Anime X - OTT App",
+      "description": "React Native is a framework for building mobile applications using JavaScript and React.js to create native mobile apps for iOS and Android platforms.",
+      "link": "https://github.com/just-manoj/animeX"
+    },
+    {
+      "id": 2,
+      "src": "/ScreenShots/Comedy Dialogue App.jpg",
+      "title": "Tamil Comedy Dialogue App",
+      "description": "Node.js is a JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser, commonly used for building scalable and efficient server-side applications.",
+      "link": "https://github.com/just-manoj/tamilComedyDialogues"
+    },
+    {
+      "id": 3,
+      "src": "/ScreenShots/Calender Web App.jpg",
+      "title": "Calender Web App",
+      "description": "JavaScript is a versatile programming language primarily used for building interactive web pages, but also applied in server-side development, mobile app development, and more.",
+      "link": "https://just-manoj.github.io/React-Calender/"
+    },
+    {
+      "id": 4,
+      "src": "/ScreenShots/Notes App.jpg",
+      "title": "Notes App",
+      "description": "HTML is a markup language used to structure content on web pages, while CSS is a styling language used to control the presentation and appearance of HTML elements. Together, they define the structure and style of web pages.",
+      "link": "https://github.com/just-manoj/notes"
+    }
+  ],
+  "certificate": [
+    {
+      "id": 1,
+      "course": "React-Native",
+      "provider": "Udemy",
+      "certificateUrl": "/certificate/ReactNative.jpg",
+      "description": "React Native is a framework for building mobile applications using JavaScript and React.js to create native mobile apps for iOS and Android platforms."
+    },
+    {
+      "id": 2,
+      "course": "Node Js",
+      "provider": "Udemy",
+      "certificateUrl": "/certificate/Node Js.jpg",
+      "description": "React Native is a framework for building mobile applications using JavaScript and React.js to create native mobile apps for iOS and Android platforms."
+    },
+    {
+      "id": 3,
+      "course": "TCS NQT - 65.04%",
+      "certificateUrl": "/certificate/NQT.jpg",
+      "description": "TCS NQT (Tata Consultancy Services National Qualifier Test) is an entry-level exam for job recruitment, and achieving a score of 65.04% indicates proficiency in the test."
+    }
+  ]
+}
