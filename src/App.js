@@ -1,6 +1,11 @@
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  HashRouter,
+} from "react-router-dom";
 
 import NavBar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/HomeScreen";
@@ -8,15 +13,13 @@ import Home from "./Pages/Home/HomeScreen";
 function App() {
   return (
     <div className="App">
-      <Router>
-        <div>
-          <NavBar />
-          <Routes>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="*" element={<div>404 Not Found</div>}></Route>
-          </Routes>
-        </div>
-      </Router>
+      <HashRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="*" element={<div>404 Not Found</div>}></Route>
+        </Routes>
+      </HashRouter>
     </div>
   );
 }
